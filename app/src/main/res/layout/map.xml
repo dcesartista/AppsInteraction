@@ -7,17 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity$PlaceholderFragment">
 
-    <EditText
-        android:id="@+id/coorInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Coordinate"
-        />
-
     <Button
         android:id="@+id/showMapButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="SHOW MAP"
         android:textSize="15dp"
         android:ems="6"
